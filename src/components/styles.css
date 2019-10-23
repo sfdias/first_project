@@ -1,0 +1,145 @@
+/*App Component*/
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*Frame Component*/
+.frame {
+  background-color: rgb(218, 214, 214);
+  border: 1.5px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 350px;
+  margin-left: 350px;
+  height: 500px;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+ }
+
+/*Welcome Component*/
+.welcome {
+  color: #2f4f4f;
+  font-family: "Verdana", Times, Sans-serif;
+}
+
+/*Name and Age Components*/
+.rowC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Button Component*/
+.button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px 42px;
+  font-size: 14px;
+  margin: 2x 2px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 80px;
+}
+
+.button-saveButton {
+  background-color: SeaGreen;
+}
+
+.button-cancelButton {
+  background-color: #f13413;
+}
+
+.rowButton {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+  align-items: baseline;
+}
+
+/*Modal Component*/
+.modal-wrapper {
+  background: white;
+  border: 1px solid #d0cccc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  margin: 100px auto 0;
+  transition: all 0.8s;
+  width: 60%;
+}
+
+.modal-body {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.modal-footer {
+  height: 35px;
+  padding: 15px;
+}
+
+.close-modal-btn {
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 30px;
+  margin: 0;
+}
+
+.close-modal-btn:hover {
+  color: black;
+}
+
+.btn-cancel,
+.btn-continue {
+  background: coral;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+}
+
+.btn-cancel {
+  background-color: #b71c1c;
+  float: left;
+}
+
+.btn-continue {
+  background-color: #1b5e20;
+  float: right;
+}
+
+.back-drop {
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%;
+}
+
+.open-modal-btn {
+  margin: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/*Table Component*/
+.table,
+th {
+  border: 1px solid black;
+}
+
+.table {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(218, 214, 214);
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+}
+
